@@ -8,7 +8,7 @@
 
 
 
-		d3.csv("Dataset2003_2015.csv", function(data) {
+		d3.csv("../socialdata/Dataset2003_2015.csv", function(data) {
     		dataset=data;    //Once loaded, copy to dataset.
 
 
