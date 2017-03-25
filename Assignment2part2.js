@@ -1,8 +1,8 @@
 
 var path = d3.geo.path();
 var scalingVariable=2;
-var w=500*scalingVariable;
-var h=400*scalingVariable;
+var ww=500*scalingVariable;
+var hh=400*scalingVariable;
           var flagHoverOrCklick=-1;//1 for click 0 for hover
           var previousState=2;//flag to tell what was the last status
           var colorsForClusters=["red","blue","green","yellow","MediumAquaMarine  ","magenta"];
@@ -18,12 +18,12 @@ var h=400*scalingVariable;
       var projection = d3.geo.mercator()
       .center([-122.433701, 37.767683])
       .scale(250000)
-      .translate([w / 2, h / 2]);
+      .translate([ww / 2, hh / 2]);
       //Create SVG element
       var svg = d3.select("#area2")
       .append("svg")
-      .attr("width", w)
-      .attr("height", h);
+      .attr("width", ww)
+      .attr("height", hh);
 
       var path = d3.geo.path()
       .projection(projection);
