@@ -8,7 +8,7 @@ The goal of the first part of our task was to visualize San Francisco's crime da
   
 ### Visualizing geodata
 
-On the next step we explore K-means clustering. The overall idea is that each value of K has an associated view, where each of the K centroids is shown as a large colored dot, and all GPS points belonging to that centroid are colored accordingly. With the assigned buttons you can toggle among the K values.
+On the next step we explore K-means clustering. The overall idea is that each value of K has an associated view, where each of the K centroids is shown as a large colored dot, and all GPS points belonging to that centroid are colored accordingly. With the assigned buttons you can toggle among the K values. You can also hover above each button to preview the result.
 
 ### Tools Needed
 In the repo the ipython notebook where the data manipulation took place as well as the scripts used for the final page could be found. 
