@@ -4,7 +4,7 @@ The current repository was created for the Social data analysis and visualazitai
 
 ### One scatter plot and two datasets
 
-The goal of the first part of our task was to visualize San Francisco's crime data from 2003 and 2015 reagarding the areas and the type of crime occured. Each circle corresponds to a specific crime category while the radious of the circle is proportional to the number of incidents. Use the toolgle button to switch between 2003-2015.
+The goal of the first part of our task was to visualize San Francisco's crime data from 2003 and 2015 reagarding the areas and the type of crime occured. Each circle corresponds to a specific crime category while the radious of the circle is proportional to the number of the total crimes. Use the toggle button to switch between 2003-2015.
   
 ### Visualizing geodata
 
