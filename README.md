@@ -12,3 +12,6 @@ On the next step we explore K-means clustering. The overall idea is that each va
 
 ### Tools Needed
 In the repo the ipython notebook where the data manipulation took place as well as the scripts used for the final page could be found. 
+
+### Visit our page
+https://nickzafi.github.io/socialdata/
