@@ -1,8 +1,8 @@
 
 var path = d3.geo.path();
-var scalingVariable=2;
-var ww=500*scalingVariable;
-var hh=400*scalingVariable;
+var scalingVariable=1;
+var ww=1000*scalingVariable;
+var hh=800*scalingVariable;
           var flagHoverOrCklick=-1;//1 for click 0 for hover
           var previousState=2;//flag to tell what was the last status
           var colorsForClusters=["red","blue","green","yellow","MediumAquaMarine  ","magenta"];
