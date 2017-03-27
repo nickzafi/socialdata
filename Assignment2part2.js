@@ -3,7 +3,6 @@ var path = d3.geo.path();
 var scalingVariable=1;
 var ww=1000*scalingVariable;
 var hh=800*scalingVariable;
-var properLoad=1;
           var flagHoverOrCklick=-1;//1 for click 0 for hover
           var previousState=2;//flag to tell what was the last status
           var colorsForClusters=["red","blue","green","yellow","MediumAquaMarine  ","magenta"];
@@ -41,7 +40,6 @@ var properLoad=1;
         .attr("stroke", "white")
         .attr("stroke-width",2)
         .attr("d", path);
-          properLoad=0;
       });
 
 
@@ -263,6 +261,5 @@ d3.select("button6")
   outOfButton();
 
 });
-while(properLoad==1){console.log("not loaded");}
 //////END/////
 });
