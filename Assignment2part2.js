@@ -40,7 +40,6 @@ var hh=800*scalingVariable;
         .attr("stroke", "white")
         .attr("stroke-width",2)
         .attr("d", path);
-      });
 
 
 function changeCentroids(className,positionInList){//function for changing the centroids.Works for all buttons and functionalities
@@ -263,3 +262,4 @@ d3.select("button6")
 });
 //////END/////
 });
+      });
